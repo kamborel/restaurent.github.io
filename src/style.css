@@ -1,0 +1,152 @@
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #d74f1a;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+  place-content: center;
+  place-items: center;
+  gap: 10%;
+  z-index: 1;
+}
+
+.navbar span {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: solid 3px #333;
+  border-bottom: 0px;
+  width: 70px;
+  cursor: pointer;
+}
+
+/*.navbar span:hover {
+  background: #ddd;
+  color: black;
+}*/
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+.pg { display:block; margin-top: 80px;}
+.h1 { text-align:center; font-size:2em; }
+
+#content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+	
+.center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}	
+.square {
+     background-color: #ccb32e;
+	 width: 400px;
+	border-radius: 30px;
+	padding: 31px;
+    }
+	
+.div_homepage {
+		background-color: #ccb32e;
+		width: 600px;
+		height: 100px;
+		border-radius: 30px;
+		margin-top: 25px;
+    }
+	
+.div_homepagemenu{
+	background-color: #ccb32e;
+	width: 450px;
+	height: 100px;
+	border-radius: 30px;
+	margin-top: 25px;
+}
+	
+.aling_item_menu{
+	display: grid;
+	grid-auto-flow: column;
+	place-items: center;
+	place-content: center;
+	gap: 35px;
+}
+
+.aling_item_menu1{
+	display: grid;
+	grid-auto-flow: column;
+	place-items: center;
+	place-content: center;
+	gap: 20%;
+}
+
+.aling_item_menu2{
+	display: grid;
+	grid-auto-flow: column;
+	place-items: center;
+	place-content: center;
+	gap: 17%;
+}
+	
+.aling_item{
+	display: grid;
+	grid-auto-flow: row;
+	place-items: center;
+	place-content: center;
+	gap: 25px;
+}
+	
+.content_home{
+	width: 60%;
+	background-color: #d74f1a;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("./images/restaurant.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely 
+  background-position: center;
+  background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+}
+
+.bgclick {
+	  /* The image used */
+  background-image: url("./images/fruit-sur.jpg");
+
+  /* Full height */
+  /*height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.blockimg{
+	display: grid;
+	grid-auto-flow: column;
+	place-content: end;
+	place-items: center;
+	gap: 0px;
+	width: 100%;
+}
+
